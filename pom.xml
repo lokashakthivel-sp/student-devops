@@ -17,9 +17,7 @@
     </properties>
 
     <build>
-        <build>
-            <finalName>student-devops-jarfile</finalName> <!-- Outputs exactly: myapp.jar -->
-        </build>
+        <finalName>student-devops-jarfile</finalName> <!-- Outputs exactly: myapp.jar -->
         <plugins>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
