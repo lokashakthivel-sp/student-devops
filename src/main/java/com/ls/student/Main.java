@@ -10,7 +10,7 @@ public class Main {
         Path mp3Path = Paths.get(args[0]);
         String artist = Sub.getArtist(mp3Path);
         if (artist != null) {
-            System.out.println("Artist: " + artist);
+            System.out.println("Artist of entered song: " + artist);
         } else {
             System.out.println("Could not read artist from: " + mp3Path);
         }
